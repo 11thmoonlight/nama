@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#111] text-white p-8" dir="rtl">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12 mt-8">
+        <div className="text-center mb-18 mt-8">
           <h1 className="text-2xl mb-6 font-bold">
             <span className="relative inline-block">
               <span className="relative z-10"> پلن‌های اشتراکی نماباز؛</span>
@@ -30,8 +30,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <p className="text-3xl pb-4 border-b-2 border-slate-200 mt-4">
-                ۱۲۹,۹۰۰ تومان
+              <p className="text-3xl pb-4 border-b-[1px] border-[#404040] mt-4">
+                ۵۹,۹۰۰ تومان
               </p>
               <div className="mt-8 flex flex-col gap-4">
                 <p className="flex gap-0.5 items-center">
@@ -77,9 +77,11 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <button className="bg-[#b9001e] p-2 rounded-md">خرید اشتراک</button>
+            <button className="bg-[#202020] border-2 border-[#969696] p-2 rounded-xl">
+              خرید اشتراک
+            </button>
           </div>
-          <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between">
+          <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between md:-mt-5">
             <div>
               <div className="flex gap-3">
                 <SlEnergy size={24} />
@@ -95,7 +97,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <p className="text-3xl pb-4 border-b-2 border-slate-200 mt-4">
+              <p className="text-3xl pb-4 border-b-[1px] border-[#404040] mt-4">
                 ۱۲۹,۹۰۰ تومان
               </p>
               <div className="mt-8 flex flex-col gap-4">
@@ -142,7 +144,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <button className="bg-[#b9001e] p-2 rounded-md">خرید اشتراک</button>
+            <button className="bg-[#b9001e] p-2 rounded-xl">خرید اشتراک</button>
           </div>
           <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between">
             <div>
@@ -155,8 +157,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <p className="text-3xl pb-4 border-b-2 border-slate-200 mt-4">
-                ۱۲۹,۹۰۰ تومان
+              <p className="text-3xl pb-4 border-b-[1px] border-[#404040] mt-4">
+                ۳۳۹,۹۰۰ تومان
               </p>
               <div className="mt-8 flex flex-col gap-4">
                 <p className="flex gap-0.5 items-center">
@@ -202,7 +204,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <button className="bg-[#b9001e] p-2 rounded-md">خرید اشتراک</button>
+            <button className="bg-[#202020] border-2 border-[#969696] p-2 rounded-xl">
+              خرید اشتراک
+            </button>
           </div>
         </div>
       </div>
