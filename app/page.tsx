@@ -12,6 +12,7 @@ export default function Home() {
         <div className="absolute w-[200%] h-[100px] top-[30%] bg-gradient-to-r from-[#ffffff] via-[#d1d1d1] to-[#111111] opacity-[0.12] -rotate-[40deg] -left-[50%] blur-xl"></div>
         <div className="absolute w-[200%] h-[100px] top-[100%] bg-gradient-to-r from-[#ffffff] via-[#d1d1d1] to-[#111111] opacity-[0.12] -rotate-[40deg] -left-[50%] blur-xl"></div>
       </div>
+
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-18 mt-8">
           <h1 className="text-2xl mb-6 font-bold">
@@ -85,7 +86,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <button className="bg-[#202020] border-2 border-[#969696] p-2 rounded-xl">
+            <button className="bg-[#202020] border-2 border-[#969696] p-2 rounded-xl cursor-pointer hover:bg-[#303030] hover:scale-105 transition-transform duration-300">
               خرید اشتراک
             </button>
           </div>
@@ -152,7 +153,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <button className="bg-[#b9001e] p-2 rounded-xl">خرید اشتراک</button>
+            <button className="bg-[#b9001e] p-2 rounded-xl cursor-pointer hover:bg-[#b9001fb3] hover:scale-105 transition-transform duration-300">
+              خرید اشتراک
+            </button>
           </div>
           <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between">
             <div>
@@ -212,7 +215,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <button className="bg-[#202020] border-2 border-[#969696] p-2 rounded-xl">
+            <button className="bg-[#202020] border-2 border-[#969696] p-2 rounded-xl cursor-pointer hover:bg-[#303030] hover:scale-105 transition-transform duration-300">
               خرید اشتراک
             </button>
           </div>
