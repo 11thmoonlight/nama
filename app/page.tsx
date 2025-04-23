@@ -3,8 +3,16 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#111] text-white p-8" dir="rtl">
-      <div className="max-w-6xl mx-auto">
+    <main
+      className="min-h-screen bg-[#111] text-white p-8 relative overflow-hidden"
+      dir="rtl"
+    >
+      <div className="absolute inset-0 pointer-events-none z-50">
+        <div className="absolute w-[200%] h-[100px] -top-[20%] bg-gradient-to-r from-[#ffffff] via-[#d1d1d1] to-[#111111] opacity-[0.12] -rotate-[40deg] -left-[50%] blur-xl"></div>
+        <div className="absolute w-[200%] h-[100px] top-[30%] bg-gradient-to-r from-[#ffffff] via-[#d1d1d1] to-[#111111] opacity-[0.12] -rotate-[40deg] -left-[50%] blur-xl"></div>
+        <div className="absolute w-[200%] h-[100px] top-[100%] bg-gradient-to-r from-[#ffffff] via-[#d1d1d1] to-[#111111] opacity-[0.12] -rotate-[40deg] -left-[50%] blur-xl"></div>
+      </div>
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-18 mt-8">
           <h1 className="text-2xl mb-6 font-bold">
             <span className="relative inline-block">
@@ -18,7 +26,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="flex flex-wrap items-center justify-center gap-5">
           <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between">
             <div>
               <div className="flex gap-3">
@@ -81,7 +89,7 @@ export default function Home() {
               خرید اشتراک
             </button>
           </div>
-          <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between md:-mt-5">
+          <div className="w-[360px] h-[500px] bg-[#202020] rounded-3xl p-6 flex flex-col justify-between lg:-mt-5">
             <div>
               <div className="flex gap-3">
                 <SlEnergy size={24} />
